@@ -5,6 +5,7 @@ D:\Upgrad\IIITB\Course6\stub_1\technical-api\target\generated-sources\.\io\swagg
 D:\Upgrad\IIITB\Course6\stub_1\technical-api\target\generated-sources\.\com\upgrad\technical\api\model\SignupUserRequest.java
 D:\Upgrad\IIITB\Course6\stub_1\technical-api\target\generated-sources\.\com\upgrad\technical\api\model\SignupUserResponse.java
 D:\Upgrad\IIITB\Course6\stub_1\technical-api\target\generated-sources\.\io\swagger\Swagger2SpringBoot.java
+D:\Upgrad\IIITB\Course6\stub_1\technical-api\target\generated-sources\.\com\upgrad\technical\api\model\ErrorResponse.java
 D:\Upgrad\IIITB\Course6\stub_1\technical-api\src\main\java\com\upgrad\technical\api\TechnicalApiApplication.java
 D:\Upgrad\IIITB\Course6\stub_1\technical-api\target\generated-sources\.\com\upgrad\technical\api\model\AuthorizedUserResponse.java
 D:\Upgrad\IIITB\Course6\stub_1\technical-api\src\main\java\com\upgrad\technical\api\config\SwaggerConfiguration.java
@@ -13,3 +14,4 @@ D:\Upgrad\IIITB\Course6\stub_1\technical-api\target\generated-sources\.\io\swagg
 D:\Upgrad\IIITB\Course6\stub_1\technical-api\src\main\java\com\upgrad\technical\api\controller\AuthenticationController.java
 D:\Upgrad\IIITB\Course6\stub_1\technical-api\src\main\java\com\upgrad\technical\api\controller\SignupController.java
 D:\Upgrad\IIITB\Course6\stub_1\technical-api\target\generated-sources\.\io\swagger\configuration\SwaggerDocumentationConfig.java
+D:\Upgrad\IIITB\Course6\stub_1\technical-api\src\main\java\com\upgrad\technical\api\exception\RestExceptionHandler.java
