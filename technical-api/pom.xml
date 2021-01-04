@@ -11,6 +11,7 @@
 
     <artifactId>technical-api</artifactId>
 
+
     <dependencies>
         <dependency>
             <groupId>com.upgrad.technical</groupId>
@@ -42,6 +43,14 @@
             <version>2.6.1</version>
             <scope>compile</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.2.2</version>
+            <scope>runtime</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
