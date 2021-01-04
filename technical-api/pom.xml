@@ -50,7 +50,6 @@
             <version>42.2.2</version>
             <scope>runtime</scope>
         </dependency>
-
     </dependencies>
 
     <build>
@@ -108,6 +107,18 @@
                             <language>spring</language>
                         </configuration>
                     </execution>
+
+                    <execution>
+                        <id>authentication</id>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <inputSpec>${project.basedir}/src/main/resources/endpoints/authentication.json</inputSpec>
+                            <language>spring</language>
+                        </configuration>
+                    </execution>
+
                 </executions>
             </plugin>
         </plugins>

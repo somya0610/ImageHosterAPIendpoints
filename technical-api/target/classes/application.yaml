@@ -17,6 +17,7 @@ spring:
   jpa:
     properties:
       hibernate:
+        show-sql: true
         temp:
           use_jdbc_metadata_defaults: false
     database-platform: org.hibernate.dialect.PostgreSQL9Dialect
