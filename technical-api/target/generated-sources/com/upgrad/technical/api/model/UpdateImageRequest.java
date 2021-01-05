@@ -10,12 +10,12 @@ import javax.validation.Valid;
 import javax.validation.constraints.*;
 
 /**
- * ImageUploadRequest
+ * UpdateImageRequest
  */
 @Validated
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2021-01-04T17:41:36.387-08:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2021-01-04T17:41:36.563-08:00")
 
-public class ImageUploadRequest   {
+public class UpdateImageRequest   {
   @JsonProperty("image")
   private String image = null;
 
@@ -25,17 +25,19 @@ public class ImageUploadRequest   {
   @JsonProperty("description")
   private String description = null;
 
-  public ImageUploadRequest image(String image) {
+  @JsonProperty("status")
+  private String status = null;
+
+  public UpdateImageRequest image(String image) {
     this.image = image;
     return this;
   }
 
   /**
-   * The pic in Base64 format
+   * This is image in Base64 format
    * @return image
   **/
-  @ApiModelProperty(required = true, value = "The pic in Base64 format")
-  @NotNull
+  @ApiModelProperty(value = "This is image in Base64 format")
 
 
   public String getImage() {
@@ -46,17 +48,16 @@ public class ImageUploadRequest   {
     this.image = image;
   }
 
-  public ImageUploadRequest name(String name) {
+  public UpdateImageRequest name(String name) {
     this.name = name;
     return this;
   }
 
   /**
-   * The name of the image
+   * Name of the image
    * @return name
   **/
-  @ApiModelProperty(required = true, value = "The name of the image")
-  @NotNull
+  @ApiModelProperty(value = "Name of the image")
 
 
   public String getName() {
@@ -67,7 +68,7 @@ public class ImageUploadRequest   {
     this.name = name;
   }
 
-  public ImageUploadRequest description(String description) {
+  public UpdateImageRequest description(String description) {
     this.description = description;
     return this;
   }
@@ -76,8 +77,7 @@ public class ImageUploadRequest   {
    * Description of the image
    * @return description
   **/
-  @ApiModelProperty(required = true, value = "Description of the image")
-  @NotNull
+  @ApiModelProperty(value = "Description of the image")
 
 
   public String getDescription() {
@@ -86,6 +86,26 @@ public class ImageUploadRequest   {
 
   public void setDescription(String description) {
     this.description = description;
+  }
+
+  public UpdateImageRequest status(String status) {
+    this.status = status;
+    return this;
+  }
+
+  /**
+   * Status of the image
+   * @return status
+  **/
+  @ApiModelProperty(value = "Status of the image")
+
+
+  public String getStatus() {
+    return status;
+  }
+
+  public void setStatus(String status) {
+    this.status = status;
   }
 
 
@@ -97,25 +117,27 @@ public class ImageUploadRequest   {
     if (o == null || getClass() != o.getClass()) {
       return false;
     }
-    ImageUploadRequest imageUploadRequest = (ImageUploadRequest) o;
-    return Objects.equals(this.image, imageUploadRequest.image) &&
-        Objects.equals(this.name, imageUploadRequest.name) &&
-        Objects.equals(this.description, imageUploadRequest.description);
+    UpdateImageRequest updateImageRequest = (UpdateImageRequest) o;
+    return Objects.equals(this.image, updateImageRequest.image) &&
+        Objects.equals(this.name, updateImageRequest.name) &&
+        Objects.equals(this.description, updateImageRequest.description) &&
+        Objects.equals(this.status, updateImageRequest.status);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(image, name, description);
+    return Objects.hash(image, name, description, status);
   }
 
   @Override
   public String toString() {
     StringBuilder sb = new StringBuilder();
-    sb.append("class ImageUploadRequest {\n");
+    sb.append("class UpdateImageRequest {\n");
     
     sb.append("    image: ").append(toIndentedString(image)).append("\n");
     sb.append("    name: ").append(toIndentedString(name)).append("\n");
     sb.append("    description: ").append(toIndentedString(description)).append("\n");
+    sb.append("    status: ").append(toIndentedString(status)).append("\n");
     sb.append("}");
     return sb.toString();
   }

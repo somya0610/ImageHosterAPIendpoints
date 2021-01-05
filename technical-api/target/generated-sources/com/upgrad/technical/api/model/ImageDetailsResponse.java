@@ -13,7 +13,7 @@ import javax.validation.constraints.*;
  * ImageDetailsResponse
  */
 @Validated
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2021-01-04T17:07:22.152-08:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2021-01-04T17:41:36.563-08:00")
 
 public class ImageDetailsResponse   {
   @JsonProperty("image")
@@ -37,10 +37,10 @@ public class ImageDetailsResponse   {
   }
 
   /**
-   * The image in Base64 format
+   * This is image in Base64 format
    * @return image
   **/
-  @ApiModelProperty(required = true, value = "The image in Base64 format")
+  @ApiModelProperty(required = true, value = "This is image in Base64 format")
   @NotNull
 
 
