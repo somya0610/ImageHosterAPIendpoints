@@ -1,5 +1,6 @@
 package com.upgrad.technical.service.dao;
 
+import com.upgrad.technical.service.entity.ImageEntity;
 import com.upgrad.technical.service.entity.UserAuthTokenEntity;
 import com.upgrad.technical.service.entity.UserEntity;
 import com.upgrad.technical.service.entity.UserEntity;
@@ -18,15 +19,13 @@ public class UserDao {
 
     public UserEntity createUser(UserEntity userEntity) {
         entityManager.persist(userEntity);
-        return  userEntity;
+        return userEntity;
     }
 
     public UserEntity getUserByEmail(final String email) {
-        //Complete this method
         try {
             return entityManager.createNamedQuery("userByEmail", UserEntity.class).setParameter("email", email).getSingleResult();
         } catch (NoResultException nre) {
-            //Modify this method to catch the "NoResultException" when the query returns no record, and hence return null from catch block
             return null;
         }
     }
@@ -39,4 +38,5 @@ public class UserDao {
     public void updateUser(final UserEntity updatedUserEntity) {
         entityManager.merge(updatedUserEntity);
     }
+
 }

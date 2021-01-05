@@ -1,3 +1,4 @@
+D:\Upgrad\IIITB\Course6\stub_1\technical-api\target\generated-sources\.\com\upgrad\technical\api\model\ImageUploadRequest.java
 D:\Upgrad\IIITB\Course6\stub_1\technical-api\target\generated-sources\.\io\swagger\api\ApiResponseMessage.java
 D:\Upgrad\IIITB\Course6\stub_1\technical-api\target\generated-sources\.\io\swagger\api\NotFoundException.java
 D:\Upgrad\IIITB\Course6\stub_1\technical-api\target\generated-sources\.\io\swagger\api\ApiOriginFilter.java
@@ -8,6 +9,7 @@ D:\Upgrad\IIITB\Course6\stub_1\technical-api\target\generated-sources\.\io\swagg
 D:\Upgrad\IIITB\Course6\stub_1\technical-api\target\generated-sources\.\com\upgrad\technical\api\model\ErrorResponse.java
 D:\Upgrad\IIITB\Course6\stub_1\technical-api\src\main\java\com\upgrad\technical\api\TechnicalApiApplication.java
 D:\Upgrad\IIITB\Course6\stub_1\technical-api\target\generated-sources\.\com\upgrad\technical\api\model\AuthorizedUserResponse.java
+D:\Upgrad\IIITB\Course6\stub_1\technical-api\target\generated-sources\.\com\upgrad\technical\api\model\ImageUploadResponse.java
 D:\Upgrad\IIITB\Course6\stub_1\technical-api\src\main\java\com\upgrad\technical\api\config\SwaggerConfiguration.java
 D:\Upgrad\IIITB\Course6\stub_1\technical-api\target\generated-sources\.\io\swagger\api\ApiException.java
 D:\Upgrad\IIITB\Course6\stub_1\technical-api\target\generated-sources\.\io\swagger\RFC3339DateFormat.java
@@ -15,3 +17,4 @@ D:\Upgrad\IIITB\Course6\stub_1\technical-api\src\main\java\com\upgrad\technical\
 D:\Upgrad\IIITB\Course6\stub_1\technical-api\src\main\java\com\upgrad\technical\api\controller\SignupController.java
 D:\Upgrad\IIITB\Course6\stub_1\technical-api\target\generated-sources\.\io\swagger\configuration\SwaggerDocumentationConfig.java
 D:\Upgrad\IIITB\Course6\stub_1\technical-api\src\main\java\com\upgrad\technical\api\exception\RestExceptionHandler.java
+D:\Upgrad\IIITB\Course6\stub_1\technical-api\src\main\java\com\upgrad\technical\api\controller\ImageUploadController.java
