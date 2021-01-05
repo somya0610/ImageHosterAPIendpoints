@@ -1,4 +1,5 @@
 D:\Upgrad\IIITB\Course6\stub_1\technical-service\src\main\java\com\upgrad\technical\service\entity\ImageEntity.java
+D:\Upgrad\IIITB\Course6\stub_1\technical-service\src\main\java\com\upgrad\technical\service\exception\UploadFailedException.java
 D:\Upgrad\IIITB\Course6\stub_1\technical-service\src\main\java\com\upgrad\technical\service\business\PasswordCryptographyProvider.java
 D:\Upgrad\IIITB\Course6\stub_1\technical-service\src\main\java\com\upgrad\technical\service\business\ImageUploadService.java
 D:\Upgrad\IIITB\Course6\stub_1\technical-service\src\main\java\com\upgrad\technical\service\entity\UserEntity.java
