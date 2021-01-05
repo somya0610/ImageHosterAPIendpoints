@@ -13,7 +13,7 @@ import javax.validation.constraints.*;
  * ImageUploadResponse
  */
 @Validated
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2021-01-04T16:27:16.501-08:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2021-01-04T16:50:10.272-08:00")
 
 public class ImageUploadResponse   {
   @JsonProperty("id")
